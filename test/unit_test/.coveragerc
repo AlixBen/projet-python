@@ -1,0 +1,7 @@
+[run]
+omit=
+    src/log_lib.py
+[report]
+exclude_lines = 
+    class myclass
+    def _myfunction
