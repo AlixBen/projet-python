@@ -3,6 +3,7 @@ import random
 
 
 def main():
+    """Play dice roll."""
     print("start game")
     type_of_dice_flag = False
     number_of_error = 0
@@ -21,15 +22,15 @@ def main():
 
 
 def dice_roll(type_of_dice: int):
-    """ Roll the dice. """
+    """Roll the dice."""
     dice_value = random.randint(1, type_of_dice)
     return dice_value
 
 
 def print_value(dice_value: int):
-    """Printing the dice value."""
+    """Print the dice value."""
     print(f"dice_value: {dice_value}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

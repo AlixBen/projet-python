@@ -22,7 +22,7 @@ def test_main_bad_choice(monkeypatch):
 
 
 def test_print_value():
-    """test final print value."""
+    """Test final print value."""
     mock_dice_value = 6
     result = dice.print_value(mock_dice_value)
     assert result is None
@@ -30,7 +30,7 @@ def test_print_value():
 
 @mock.patch("src.dice.random")
 def test_dice_roll(mock_random):
-    """test function dice_roll."""
+    """Test function dice_roll."""
     mock_type_of_dice = 6
     mock_random.randint.return_value = 5
     result = dice.dice_roll(mock_type_of_dice)
