@@ -1,0 +1,10 @@
+[flake8]
+ignore = E203, W503, D202
+max-line-length = 100
+max-complexity = 18
+docstring-convention = pep257
+exclude =
+    node_modules
+    .venv
+    .pytest_cache
+    .serverless

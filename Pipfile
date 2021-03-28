@@ -11,6 +11,13 @@ pytest = "*"
 pytest-cov = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-cov = "*"
+black = "*"
+flake8 = "*"
+pep8-naming = "*"
+flake8-docstrings = "*"
+flake8-import-order = "*"
 
 [requires]
 python_version = "3.8"
