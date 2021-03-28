@@ -29,3 +29,7 @@ def dice_roll(type_of_dice: int):
 def print_value(dice_value: int):
     """Printing the dice value."""
     print(f"dice_value: {dice_value}")
+
+
+if __name__ == '__main__':
+    main()

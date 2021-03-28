@@ -5,7 +5,10 @@ python:
 virtualenv:
   system_site_packages: true
 
+install:
+  - pip install pipenv
+  - pipenv install --dev
 # command to run tests
 script:
-  - pipenv install
+  - python -m pytest --cov=myproject test/unit_test/
   
